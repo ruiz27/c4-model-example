@@ -1,4 +1,4 @@
-# 📰 Propuesta de Arquitectura: NewsNow
+# 📰 Propuesta de Arquitectura: Portal de Noticias
 
 A partir de la información recibida, propongo una solución **serverless**, **desacoplada** y **nativa de la nube**, desplegada en **AWS**. Se basa en un patrón **CQRS** para manejar eficientemente las cargas de trabajo, y se apoya en servicios gestionados para garantizar una **alta escalabilidad y seguridad**.
 
@@ -80,7 +80,7 @@ Se implementan dos puntos en la solución para solventar esta casuística:
 **Estado:** En revisión
 
 ### Contexto
-NewsNow necesita lanzar una plataforma digital para su periódico. Los requisitos clave son la capacidad de manejar **picos de tráfico masivos**, y una preferencia por el uso de **servicios gestionados (PaaS)** para minimizar la carga operativa. El sistema debe tener un portal público de alta demanda para lectores y un portal de administración para que los periodistas puedan gestionar el contenido.
+El cliente necesita lanzar una plataforma digital para su periódico. Los requisitos clave son la capacidad de manejar **picos de tráfico masivos**, y una preferencia por el uso de **servicios gestionados (PaaS)** para minimizar la carga operativa. El sistema debe tener un portal público de alta demanda para lectores y un portal de administración para que los periodistas puedan gestionar el contenido.
 
 ### Decisión
 Se ha decidido implementar una **arquitectura serverless en AWS**, basada en el **patrón CQRS** (Command Query Responsibility Segregation).
