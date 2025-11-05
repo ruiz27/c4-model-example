@@ -19,13 +19,13 @@ Esta solución responde a los siguientes requisitos clave:
 
 ### C1 - Diagrama de Contexto
 
-![C1 - Diagrama de Contexto](1_Context_diagram.drawio.png)
+![C1 - Diagrama de Contexto](images/1_Context_diagram.drawio.png)
 
 ### C2 - Diagrama de Contenedores
 
 **Componentes identificados para dar respuesta a los requerimientos**
 
-![C2 - Diagrama de Contenedores](2_Container_diagram.drawio.png)
+![C2 - Diagrama de Contenedores](images/2_Container_diagram.drawio.png)
 
 | Contenedor | Descripción | Tecnologías/Función |
 | :--- | :--- | :--- |
@@ -43,7 +43,7 @@ Esta solución responde a los siguientes requisitos clave:
 
 **Solución desplegada sobre AWS**
 
-![C3 - Diagrama de Despliegue](3_Deployment_diagram.drawio.png)
+![C3 - Diagrama de Despliegue](images/3_Deployment_diagram.drawio.png)
 
 | Componente AWS | Propósito | Detalles |
 | :--- | :--- | :--- |
